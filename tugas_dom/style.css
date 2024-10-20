@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    margin-top: 20pt;
+    
+}
+
+.card {
+    background-color: #f8f9fa; /* Light background color */
+}
