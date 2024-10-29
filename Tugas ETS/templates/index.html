@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budaya NTT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logo ntt[1].png') }}" alt="Logo" class="logo">
+        <h1>Budaya Nusa Tenggara Timur (NTT)</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Nusa Tenggara Timur (NTT) adalah sebuah provinsi di Indonesia yang terdiri dari beberapa pulau besar, termasuk Flores, Sumba, dan Timor, serta banyak pulau kecil lainnya. Wilayah ini dikenal dengan keindahan alam yang luar biasa dan kekayaan budaya yang beragam. Di NTT, terdapat berbagai tradisi, tarian, dan karya seni yang mencerminkan identitas masyarakat setempat. Mari kita jelajahi beberapa budaya dari NTT di bawah ini.</p>
+        </section>
+
+        <section>
+            <h2>Warisan Budaya NTT</h2>
+
+            <div class="culture-card">
+                <img src="{{ url_for('static', filename='kain tenun.jpg') }}" alt="Tenun Ikat" width="300">
+                <h3>Tenun Ikat</h3>
+                <p>Tenun ikat adalah kain tradisional khas NTT yang dibuat dengan cara mengikat benang sebelum ditenun, menghasilkan pola yang unik dan penuh warna, serta digunakan dalam berbagai upacara adat.</p>
+            </div>
+
+            <div class="culture-card">
+                <img src="{{ url_for('static', filename='tari caci.jpg') }}" alt="Tari Caci" width="300">
+                <h3>Tari Caci</h3>
+                <p>Tari Caci adalah tarian perang tradisional dari Manggarai, NTT, yang melambangkan kejantanan dan keberanian pria. Tarian ini sering ditampilkan dalam acara adat dan festival budaya.</p>
+            </div>
+
+            <div class="culture-card">
+                <img src="{{ url_for('static', filename='rumah adat.jpg') }}" alt="Rumah Adat Musalaki" width="300">
+                <h3>Rumah Adat Musalaki</h3>
+                <p>Rumah Adat Musalaki merupakan rumah tradisional dari Flores Timur yang digunakan sebagai tempat berkumpulnya masyarakat dalam kegiatan adat dan upacara penting.</p>
+            </div>
+
+            <div class="culture-card">
+                <img src="{{ url_for('static', filename='penti.jpg') }}" alt="Upacara Penti" width="300">
+                <h3>Upacara Penti</h3>
+                <p>Upacara Penti adalah perayaan tahunan di Manggarai untuk mensyukuri hasil panen dan memohon keberkahan untuk tahun berikutnya. Upacara ini biasanya melibatkan tari-tarian dan ritual adat.</p>
+            </div>
+
+            <div class="culture-card">
+                <img src="{{ url_for('static', filename='tari dolo.jpg') }}" alt="Tari Dolo-Dolo" width="300">
+                <h3>Tari Dolo-Dolo</h3>
+                <p>Tari Dolo-Dolo adalah tari tradisional dari masyarakat Sikka, yang biasanya ditarikan dalam berbagai acara adat, menggambarkan sukacita dan kebersamaan.</p>
+            </div>
+        </section>
+ <!-- Tabel Informasi Budaya -->
+ <section>
+    <h2>Daftar Budaya NTT</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Budaya</th>
+                <th>Asal Daerah</th>
+                <th>Deskripsi Singkat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tenun Ikat</td>
+                <td>Flores, NTT</td>
+                <td>Kain tradisional yang dibuat dengan teknik ikat, sering digunakan dalam acara adat.</td>
+            </tr>
+            <tr>
+                <td>Tari Caci</td>
+                <td>Manggarai, NTT</td>
+                <td>Tarian perang yang melambangkan keberanian pria, sering ditampilkan dalam festival budaya.</td>
+            </tr>
+            <tr>
+                <td>Rumah Adat Musalaki</td>
+                <td>Flores Timur, NTT</td>
+                <td>Rumah tradisional untuk berkumpul dalam upacara adat.</td>
+            </tr>
+            <tr>
+                <td>Upacara Penti</td>
+                <td>Manggarai, NTT</td>
+                <td>Upacara tahunan untuk mensyukuri hasil panen dan meminta keberkahan.</td>
+            </tr>
+            <tr>
+                <td>Tari Dolo-dolo</td>
+                <td>Sumba, NTT</td>
+                <td>Tarian yang melambangkan kebersamaan masyarakat dalam berbagai acara adat.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</main>
+
+<!-- Formulir Budaya -->
+<section class="form-section">
+<h2>Berikan Tanggapan Anda </h2>
+<form id="culturalForm">
+    <label for="name">Nama Anda:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="culture">Berikan tanggapan anda:</label>
+    <input type="text" id="culture" name="culture" required>
+</form>
+<button type="submit">Kirim</button>
+<p id="response"></p> <!-- Untuk menampilkan respons pesan -->
+</section>
+
+<footer>
+<p>&copy; 2024 Budaya Nusa Tenggara Timur</p>
+<div class="additional-info">
+    <p>Email: 4foursandy@gmail.com / aldyanidini79@gmail.com</p>
+    <p>Telp: 085755866830 / 081337477117</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

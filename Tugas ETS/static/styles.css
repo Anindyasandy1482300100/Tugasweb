@@ -1,0 +1,298 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0c3d69;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+}
+
+h2 {
+    color: #0c3d69;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.culture-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.culture-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.culture-card h3 {
+    color: #0c3d69;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0c3d69;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    background-image: url('/static/komodo[1].jpg');
+    background-size: cover; /* Untuk menyesuaikan ukuran */
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(12, 61, 105, 0.9); /* Transparansi untuk membuat latar belakang lebih lembut */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparansi untuk membuat teks lebih mudah dibaca */
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.intro {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+}
+
+h2 {
+    color: #0c3d69;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.culture-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.culture-card img {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.culture-card h3 {
+    color: #0c3d69;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(12, 61, 105, 0.9);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Gaya Umum Formulir */
+.form-section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.form-section:hover {
+    transform: scale(1.02);
+}
+
+.form-section h2 {
+    color: #0c3d69;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Gaya Label */
+.form-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+    font-size: 1em;
+    text-align: left;
+    width: 80%;
+    margin: 15px auto 5px;
+}
+
+/* Gaya Input */
+.form-section input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.form-section input[type="text"]:focus {
+    border-color: #0c3d69;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 61, 105, 0.3);
+}
+
+/* Gaya Tombol */
+.form-section button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #0c3d69;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-section button:hover {
+    background-color: #085080;
+    transform: scale(1.05);
+}
+
+.form-section button:active {
+    background-color: #063559;
+    transform: scale(0.98);
+}
+
+/* Respons Pesan */
+#response {
+    margin-top: 20px;
+    font-style: italic;
+    color: #0c3d69;
+    font-size: 1.1em;
+}
+
+/* Animasi Hover untuk Formulir */
+.form-section:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk Tabel Budaya */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+table thead tr {
+    background-color: #0c3d69;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #0c3d69;
+}
+
+/* Gaya untuk footer */
+footer {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Menempatkan elemen di sebelah-sebelah */
+    align-items: center; /* Menjaga elemen dalam posisi vertikal yang sama */
+    padding: 10px; /* Memberikan ruang di dalam footer */
+    background-color: #0c3d69; /* Warna latar belakang footer */
+    border-top: 1px solid #ccc; /* Garis atas footer */
+    margin-top: 20px; /* Memberikan jarak di atas footer */
+}
+
+/* Gaya untuk teks di dalam footer */
+footer p {
+    margin: 0; /* Menghilangkan margin default */
+}
+
+/* Gaya untuk informasi tambahan */
+.additional-info {
+    text-align: right; /* Agar teks berada di sebelah kanan */
+}
+
+header {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    align-items: center; /* Menjaga logo dan teks pada garis yang sama secara vertikal */
+    justify-content: center; /* Memusatkan elemen dalam header */
+    position: relative; /* Memungkinkan penempatan logo dan judul yang lebih baik */
+}
+
+.logo {
+    width: 50px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto; /* Mempertahankan rasio aspek */
+    position: absolute; /* Mengatur posisi logo */
+    left: 20px; /* Jarak dari kiri */
+}
+
+h1 {
+    margin-left: 70px; /* Menyediakan ruang untuk logo di sebelah kiri judul */
+    text-align: center; /* Memusatkan teks h1 */
+}
